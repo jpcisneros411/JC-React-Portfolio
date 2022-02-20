@@ -7,10 +7,10 @@ function App() {
         <p>
           <href></href>
           <h1> Jason's React Portfolio </h1>
+          
         </p>
-        <a>
-          Hello Im Jason
-        </a>
+        <div><img height={400} width ={300} src = "My Photo.JPG"/></div>
+        
       </header>
     </div>
   );
