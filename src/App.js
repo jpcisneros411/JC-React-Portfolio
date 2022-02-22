@@ -1,4 +1,6 @@
 import './App.css';
+import './components/AboutMe'
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -6,10 +8,9 @@ function App() {
       <header className="App-header">
         <p>
           <href></href>
-          <h1> Jason's React Portfolio </h1>
-          
+          <h1> Jason's React Portfolio </h1>        
         </p>
-        <div><img height={400} width ={300} src = "My Photo.JPG"/></div>
+        <AboutMe></AboutMe>
         
       </header>
     </div>
