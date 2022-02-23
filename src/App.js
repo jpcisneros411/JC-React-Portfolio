@@ -1,9 +1,9 @@
 import './App.css';
-import './components/AboutMe'
-import AboutMe from './components/AboutMe';
+import './components/pages/AboutMe'
+import AboutMe from './components/pages/AboutMe';
 import MyContacts from './components/pages/ContactInfo';
-import MyPortfolio from './components/Portfolio';
-import MyResume from './components/Resume';
+import MyPortfolio from './components/pages/Portfolio';
+import MyResume from './components/pages/Resume';
 
 function App() {
   return (
