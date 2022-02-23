@@ -1,7 +1,7 @@
 import './App.css';
 import './components/AboutMe'
 import AboutMe from './components/AboutMe';
-import MyContacts from './components/ContactInfo';
+import MyContacts from './components/pages/ContactInfo';
 import MyPortfolio from './components/Portfolio';
 import MyResume from './components/Resume';
 
