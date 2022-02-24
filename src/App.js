@@ -20,11 +20,11 @@ function App() {
     <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
     <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
       <ReactBootStrap.Nav className="me-auto">
-        <ReactBootStrap.Nav.Link href="#home">Home</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="#about">About Me</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="#resume">My Resume</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="#portfolio">My Portfolio</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="#contacts">My Contacts</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/home">Home</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/about">About Me</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/resume">My Resume</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/portfolio">My Portfolio</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/contacts">My Contacts</ReactBootStrap.Nav.Link>
       </ReactBootStrap.Nav>
     </ReactBootStrap.Navbar.Collapse>
   </ReactBootStrap.Container>
@@ -32,10 +32,10 @@ function App() {
         <Router>
           <div className="container">  
           <Routes>
-          <Route path="#about" component={AboutMe}/>
-          <Route path="#resume" component={MyResume}/>
-          <Route path="#portfolio" component={MyPortfolio}/>
-          <Route path="#about" component={MyContacts}/>
+          <Route path="/about" component={AboutMe}/>
+          <Route path="/resume" component={MyResume}/>
+          <Route path="/portfolio" component={MyPortfolio}/>
+          <Route path="/about" component={MyContacts}/>
           </Routes>
           </div>  
         </Router>
