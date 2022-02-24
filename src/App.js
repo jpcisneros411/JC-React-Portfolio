@@ -32,18 +32,12 @@ function App() {
         
           <href></href>       
       <AboutMe></AboutMe>
-        break
-        case 'resume'
-          component = <MyResume></MyResume>
-        break
-        case 'portfolio'
+         <MyResume></MyResume>
+       
           <MyPortfolio></MyPortfolio>
-        break
-        case 'contacts'
+        
           <MyContacts></MyContacts>
-        break
-        default:
-          component = <AboutMe/>
+        
       
 
     </div>
