@@ -4,20 +4,23 @@ import AboutMe from './components/pages/AboutMe';
 import MyContacts from './components/pages/ContactInfo';
 import MyPortfolio from './components/pages/Portfolio';
 import MyResume from './components/pages/Resume';
-
+//import Header from './components/Header/Header';
+import Footer from "./components/Footer/Footer"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
+    <div className="page-container">
+    <div className="content-wrap">
+        
+        
           <href></href>
           <h1> Jason's React Portfolio </h1>        
-        </p>
+        
         <AboutMe></AboutMe>
         <MyContacts></MyContacts>
         <MyResume></MyResume>
         <MyPortfolio></MyPortfolio>
-      </header>
+    </div>
+        <Footer/>
     </div>
   );
 }
