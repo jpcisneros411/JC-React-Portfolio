@@ -8,7 +8,7 @@ import MyResume from './components/pages/Resume';
 import Footer from "./components/Footer/Footer";
 //import 'bootstrap/dist/css/boostrap.min.css';
 import * as ReactBootStrap from "react-bootstrap";
-import {Route, BrowserRouter as Router, Routes, Link} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
@@ -36,6 +36,7 @@ function App() {
           <Route path="/resume" component={MyResume}/>
           <Route path="/portfolio" component={MyPortfolio}/>
           <Route path="/about" component={MyContacts}/>
+          
           </Routes>
           </div>  
         </Router>
