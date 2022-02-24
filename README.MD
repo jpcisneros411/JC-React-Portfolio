@@ -1,5 +1,10 @@
 # JC React Portfolio
 
+<img width="1123" alt="image" src="https://user-images.githubusercontent.com/88108211/155470907-b1343f66-27fa-4d66-9c7f-5ca622deaa14.png">
+<img width="548" alt="image" src="https://user-images.githubusercontent.com/88108211/155471000-ea49b828-a616-4a33-91aa-5b3083993801.png">
+<img width="490" alt="image" src="https://user-images.githubusercontent.com/88108211/155471071-1fe654fe-80f7-4295-a24c-d50be2f34787.png">
+
+
 
   ## Table of Contents
 
