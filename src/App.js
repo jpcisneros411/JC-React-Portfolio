@@ -20,11 +20,11 @@ function App() {
     <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
     <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
       <ReactBootStrap.Nav className="me-auto">
-        <ReactBootStrap.Nav.Link href="JC-React-Portfolio/home">Home</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="JC-React-Portfolio/about">About Me</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="JC-React-Portfolio/resume">My Resume</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="JC-React-Portfolio/portfolio">My Portfolio</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.Nav.Link href="JC-React-Portfolio/contacts">My Contacts</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/JC-React-Portfolio/home">Home</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/JC-React-Portfolio/about">About Me</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/JC-React-Portfolio/resume">My Resume</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/JC-React-Portfolio/portfolio">My Portfolio</ReactBootStrap.Nav.Link>
+        <ReactBootStrap.Nav.Link href="/JC-React-Portfolio/contacts">My Contacts</ReactBootStrap.Nav.Link>
       </ReactBootStrap.Nav>
     </ReactBootStrap.Navbar.Collapse>
   </ReactBootStrap.Container>
