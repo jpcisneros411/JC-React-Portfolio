@@ -32,10 +32,10 @@ function App() {
         <Router>
           <div className="container">  
           <Routes>
-          <Route path="/about" component={AboutMe}/>
-          <Route path="/resume" component={MyResume}/>
-          <Route path="/portfolio" component={MyPortfolio}/>
-          <Route path="/about" component={MyContacts}/>
+          <Route path="/about" element={<AboutMe/>}/>
+          <Route path="/resume" element={<MyResume/>}/>
+          <Route path="/portfolio" element={<MyPortfolio/>}/>
+          <Route path="/contacts" element={<MyContacts/>}/>
           
           </Routes>
           </div>  
